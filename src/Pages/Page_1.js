@@ -1,16 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 function Page_1() {
-    
-    useEffect(() => {
-
-    }, []);
     return (
-        <div className='App'>
-            <h1>Group List</h1>
-            <div className='classList_data'>
-
-            </div>
+        <div>
+            <h1>Page 1</h1>
         </div>
     )
 }
