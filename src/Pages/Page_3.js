@@ -29,7 +29,6 @@ function Page_3() {
 
                 </div>
             </div>
-
             <div className='row text-center'>
                 <div className='col-md=3'></div>
                 <div className='col-md-6'>
@@ -43,7 +42,6 @@ function Page_3() {
                             </tr>
                         </thead>
                         <tbody>
-
                         </tbody>
                     </table>
                 </div>
