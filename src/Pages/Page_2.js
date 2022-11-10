@@ -18,13 +18,12 @@ const Page_2 = () => {
         }
         return result;
     }
-    
+
     useEffect(() => {
         const dataFetch = async () => {
             const q = await query(collection(db, 'chat_group_list'), orderBy('created'))
             await onSnapshot(q, (querySnapshot) => {
                 setCount(querySnapshot.docs.length);
-
             });
         }
         dataFetch();
